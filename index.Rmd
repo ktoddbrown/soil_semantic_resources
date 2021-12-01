@@ -1,0 +1,51 @@
+--- 
+title: "Soil semantic resources"
+author: "ESIP Soil Ontology and Informatics Cluster"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: references.bib
+link-citations: yes
+github-repo: ktoddbrown/soil_semantic_resources
+description: "This is a review of available soil semantic resources."
+---
+
+# Preamble
+
+This is a review of soil semantic resources and follows a series of presentations for the Spring of 2022 in the Soil Ontology and Infomatics Cluster.
+These reviews are meant to be short and will not be complete descriptions of the resources mentioned here.
+
+Thank you to the Earth Science Information Partnership for hosting the Soil Ontology and Informatics Cluster.
+
+## Credit and attribution
+
+**add your name here if you contribute to the repository and wish to be acknowledged**
+
+Facilitators organize the initial draft for individual resources
+
+  - Jane Doe (Smart University <notAEmail@smart.edu>) - GloriousTheseus
+
+Lead experts certify the accuracy for individual resources
+
+  - XXX AAA (Smart University <notAEmail@smart.edu>) - GloriousTheseus
+
+Contributors provide revisions and feedback on individual resources
+
+  - BBB CCC (Smart University <notAEmail@smart.edu>) - GloriousTheseus
+  
+
+K Todd-Brown (University of Florida) - Lead editor
+
+
+
+```{r include=FALSE}
+#install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+library(bookdown)
+# automatically create a bib database for R packages
+#knitr::write_bib(c(
+#  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+#), 'packages.bib')
+```

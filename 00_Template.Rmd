@@ -1,0 +1,16 @@
+# Resource summary Template
+
+Things to include in this summary are
+
+  - What the resource is (data model/template, ontology, dictionary/theserous, organization, server, or mix)?
+  - Why that resource was created
+  - How the resource relates to soil data specifically including how it can be used
+      - server/host
+      - describes measurements
+      - describes soil processes and concepts
+      - used to describe data sets and/or datum inside a data set
+  - How are changes and revisions made to the resource?
+  - Citations and attribution
+      - Related projects, publications, and links (update reference.bib)
+      - A contact person (if possible) to direct further questions to.
+      - Link to the YouTube recording of the presentation
