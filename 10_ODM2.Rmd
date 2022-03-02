@@ -1,0 +1,42 @@
+# Observation Data Model 2 (ODM2)
+
+## What the resource is (e.g. data model/template, ontology, dictionary/thesaurus, organization, server, or mix)?
+
+ODM2 is an information model with a relational database storage implementation. 
+Also presented was a supporting software ecosystem including a series of controlled vocabularies.
+ 
+## Why was the resource created?
+
+ODM2 was created as an information model and software ecosystem for recording and managing feature-based earth observations, designed to facilitate interoperability across scientific disciplines and domain cyberinfrastructures. 
+It evolved particularly from experience with hydrological data (water quantity and quality), but was heavily informed by use needs in Critical Zone (including soils) and solid earth applications.
+
+## How the resource relates to soil data specifically including how it can be used
+
+ODM2 provides an information model for describing sampling workflows and measurements: e.g. processes, concepts, and tracking of information. 
+For soil data, that could mean: soil sample collection, sample splitting, sample processing, sample analysis, etc.
+ODM2 stores data in a relational database and provides mechanisms for programmatic data access by multiple users (ODM2 API and web service API). 
+
+## How are changes and revisions made to the resource?
+
+ODM2 itself is currently not under active, public development. 
+However, it is used operationally by several projects and other projects adapted and modified it to their needs (e.g. EarthChem).
+
+## Citations and attribution
+
+ODM2 GitHub Organization for information & downloads of ODM2 software ecosystem.
+ODM2/ODM2 GitHub repository to access blank schemas for relational database implementations and scripts for populating controlled vocabularies.
+Documentation for ODM2 for a detailed description of the information model.
+
+## Related projects, publications, and links (update reference.bib)
+
+Presentations: (1) [https://github.com/BiG-CZ/bigcz_wshp2017](https://github.com/BiG-CZ/bigcz_wshp2017) (2) Mayorga et al, Cross-Site Soil and Microbial Ecology Cyberinfrastructure for the CZIMEA EarthCube Project [https://github.com/BiG-CZ/CZIMEA/blob/master/EMayorga_ECAHM2017_Poster.pdf](https://github.com/BiG-CZ/CZIMEA/blob/master/EMayorga_ECAHM2017_Poster.pdf). Poster presented at the CUAHSI Conference on Hydroinformatics in Tuscaloosa, AL, July 2017.
+
+Papers: (1) Horsburgh et al., 2016. Observations Data Model 2: A community information model for spatially discrete Earth observations. [https://doi.org/10.1016/j.envsoft.2016.01.010](https://doi.org/10.1016/j.envsoft.2016.01.010) (2) Hsu et al., 2017. Enhancing Interoperability and Capabilities of Earth Science Data using the Observations Data Model 2 (ODM2). [http://dx.doi.org/10.5334/dsj-2017-004](http://dx.doi.org/10.5334/dsj-2017-004)
+
+## Contact person
+
+Emilio Mayorga (University of Washington), emiliom@uw.edu 
+
+## Link to the YouTube recording of the presentation
+
+[https://www.youtube.com/watch?v=fYLcBWSVYZU](https://www.youtube.com/watch?v=fYLcBWSVYZU)
