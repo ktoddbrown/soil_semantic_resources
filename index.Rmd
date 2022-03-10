@@ -25,6 +25,7 @@ Thank you to the Earth Science Information Partnership for hosting the Soil Onto
 Facilitators organize the initial draft for individual resources
 
   - Jane Doe (Smart University <notAEmail@smart.edu>) - GloriousTheseus
+  - Kathe Todd-Brown (University of Florida <ktoddbrown@ufl.edu>) -  FAIR ontologies, OBO Foundry, and ENVO
 
 Lead experts certify the accuracy for individual resources
 
@@ -34,8 +35,9 @@ Contributors provide revisions and feedback on individual resources
 
   - BBB CCC (Smart University <notAEmail@smart.edu>) - GloriousTheseus
   
+Maintainer and point of contact
 
-K Todd-Brown (University of Florida) - Lead editor
+  - K Todd-Brown (University of Florida <ktoddbrown@ufl.edu) - maintainer
 
 
 
