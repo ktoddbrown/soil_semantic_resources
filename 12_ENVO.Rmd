@@ -1,4 +1,4 @@
-# FAIR ontologies, OBO Foundry, and ENVO
+# ENVO, OBO Foundrary, and FAIR ontologies
 
 FAIR as applies to ontologies. 
 As a concept, this underlays all of the OBO Foundrary.
