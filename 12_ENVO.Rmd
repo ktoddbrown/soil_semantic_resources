@@ -13,7 +13,12 @@ Developed to describe the environment of samples; strong ties to medical communi
 There are general ontology design patterns including Robot Templates; Dead Simple Ontology Design patterns (DOSDP).
 [https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow](https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow)
 
+## Point of Contact
+
+Kai Blumberg (Woods Hole Oceanographic Institution; University of Arizona) [https://github.com/kaiiam](https://github.com/kaiiam) <kblumberg@email.arizona.edu>
+
 ## Ciations
+
 The OBO Foundry [https://obofoundry.org/about-OBO-Foundry.html](https://obofoundry.org/about-OBO-Foundry.html)
 
 Envo can be cited as:
