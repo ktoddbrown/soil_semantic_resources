@@ -1,0 +1,29 @@
+# FAIR ontologies, OBO Foundry, and ENVO
+
+FAIR as applies to ontologies. 
+As a concept, this underlays all of the OBO Foundrary.
+
+The Open Biological and Biomedical Ontology (OBO) Foundry and library [https://obofoundry.org/](https://obofoundry.org/) is a collection of ontologies that follow 16 key principles with the goal of increasing inter-operability across ontologies from different domains.
+Key relationships between terms uses the "Relations Ontology".
+
+ENVO [https://obofoundry.org/ontology/envo.html](https://obofoundry.org/ontology/envo.html) is an ontology (a paired term definitions with identified relationships to other terms) of environmental features and habitat.
+The lateral and heiractical terms is a key strength of ontologies that lends itself to machine searchability/readability.
+Developed to describe the environment of samples; strong ties to medical community.
+
+There are general ontology design patterns including Robot Templates; Dead Simple Ontology Design patterns (DOSDP).
+[https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow](https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow)
+
+## Ciations
+The OBO Foundry [https://obofoundry.org/about-OBO-Foundry.html](https://obofoundry.org/about-OBO-Foundry.html)
+
+Envo can be cited as:
+
+Buttigieg, P. L., Morrison, N., Smith, B., Mungall, C. J., & Lewis, S. E. (2013). The environment ontology: contextualising biological and biomedical entities. Journal of Biomedical Semantics, 4(1), 43. doi:10.1186/2041-1480-4-43
+
+Or for latest developments:
+
+Buttigieg, P. L., Pafilis, E., Lewis, S. E., Schildhauer, M. P., Walls, R. L., & Mungall, C. J. (2016). The environment ontology in 2016: bridging domains with increased scope, semantic density, and interoperation. Journal of Biomedical Semantics, 7(1), 57. doi:10.1186/s13326-016-0097-6
+
+## Recorded Presentation
+
+[https://www.youtube.com/watch?v=aDqlbd8zkCg](https://www.youtube.com/watch?v=aDqlbd8zkCg) 
