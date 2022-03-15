@@ -10,8 +10,9 @@ ENVO [https://obofoundry.org/ontology/envo.html](https://obofoundry.org/ontology
 The lateral and heiractical terms is a key strength of ontologies that lends itself to machine searchability/readability.
 Developed to describe the environment of samples; strong ties to medical community.
 
-There are general ontology design patterns including Robot Templates; Dead Simple Ontology Design patterns (DOSDP).
-[https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow](https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow)
+Some useful tools for creating ontologies are: 
+Dead Simple Ontology Design patterns (DOSDP) which is a way of automating term creation using design patterns and  
+Robot Templates that generate OWL code from a tabular format [https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow](https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow)
 
 ## Point of Contact
 
