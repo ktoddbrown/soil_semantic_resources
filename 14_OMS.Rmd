@@ -1,0 +1,82 @@
+# Observations, Measurements and Samples (OMS)
+
+## What 
+
+Observations, Measurements and Samples (OMS), aka:
+
++ ISO 19156
++ OGC Abstract Topic 20
+
+OMS provides a data model for the structuring of observational or measurement data on spatial objects. 
+Due to the generic nature of this data model, the same structure can be applied across many different domains, allowing both for comparability across domains as well as for reuse of software. 
+In addition, the Sampling part of the standard provides structures to describe how a specific sample or specimen has been extracted from the spatial features under investigation.
+
+Within the OGC, work on OMS has been ongoing for the last 20 years. 
+The first version of OMS under OGC was released in 2007, with the update to OGC Abstract Topic 20: Observations and Measurements, the version that became ISO 19156 Edition 1 released in 2010. 
+The last years have seen an update of this resource, currently being finalized for release in fall of 2022 by both OGC and ISO. 
+This update process has also led to a renaming of the standard from “Observations and Measurements “ (O&M) to “Observations, Measurements and Samples” (OMS).
+
+## Why
+
+While various environmental (or wider measurement domains) all see their data as highly unique, when working across environmental domains it becomes apparent just how similar such measurements are. 
+The aspects where domain models diverge tend to apply to:
+
++ The spatial features under investigation. Pertaining to soil data, these are usually profiles, horizons & layers; when dealing with water, these tend to be samples taken from the water source or specific locations along a river network, when dealing with air quality the spatial feature is usually the air bubble surrounding the intake.
++ The properties (characteristics) observed or measured on these spatial features, together with the procedure utilized to ascertain this information.
+
+OMS provides a standardized core model that can be applied to any spatial object type, allowing for integration with existing domain models. Where samples or specimens are taken from these spatial objects, the structures from the Sampling part of the OMS model can be applied.
+
+The properties being observed together with the procedures utilized can be defined through use of the OMS model. 
+Depending on the system architecture, these can either be defined within the system, or alternatively existing external resources can be linked.
+
+## How
+
+Various systems have been developed for the management and provision of data under the OMS model, whereby the existing systems were based on the previous version. On data provision, OGC provides two alternative standards, utilizing different technological paradigms:
+
++ *Sensor Observation Service (SOS)*: in line with the traditional OGC Web Services (OWS) such as WMS and WFS. 
+The request/response structure has been custom tailored to the O&M model, all requests and responses are XML encoded. 
+An additional WFS is required for provision of all spatial objects beyond the direct feature-of-interest of the observation.
++ *Sensor Things API (STA)*: STA was the first API specification finalized within the OGC, and utilizes the Open Data Protocol (OData) for the specification of very powerful queries, utilizing JSON for both requests and responses. 
+The STA data model incorporates concepts that have been integrated in the OMS update. In addition, STA supports the use of MQTT for data input from sensors.
+
+### How Soil
+
+As described above, OMS provides structures for storage and provision of observational data across a vast number of domains. 
+Pertaining to soil data, a recent STA development is of interest. 
+While STA V1.1 depends on soft typing for the creation of additional classes representing different types of spatial features, a mechanism allowing for polymorphism of the base OMS classes comprising the core data model is foreseen in the upcoming 2.0 version of this standard. 
+A first prototype has recently been created illustrating this functionality on the example of soil data provided under the European INSPIRE initiative, whereby the STA 
+Thing concept has been specialized towards the spatial object types required under the INSPIRE Soil data model.
+Any additional attributes required to further describe the various objects encompassing the STA data model can be added to the “properties” section of the JSON encoding (available under STA V1.1)
+
+## Changes:
+
+Modifications to the standards themselves is only possible through participation in the relevant standards organizations, in this case OGC and ISO. 
+However, the models have been designed to be both flexible and extensible, so most changes will not require modification of the underlying standardized models.
+
+## Citations
+
++ OMS:
+    -	https://www.ogc.org/standards/om
+    - https://www.iso.org/standard/32574.html
++	SOS: 
+    -	https://www.ogc.org/standards/sos
++	STA:
+    - https://www.ogc.org/standards/sensorthings
+    - https://github.com/opengeospatial/sensorthings 
+    - https://datacoveeu.github.io/API4INSPIRE/ 
+
+## Example Endpoints
+
+SOS (Air Quality Example): 
+
++ SOS for Measurements: http://luft.umweltbundesamt.at/inspire/sos?service=SOS&version=2.0.0&request=getCapabilities 
++ WFS2 for Stations and the like: http://luft.umweltbundesamt.at/inspire/wfs?service=WFS&version=2.0.0&request=getCapabilities
+
+STA:
+
++ Air Quality (same as above):
+    + STA: https://airquality-frost.k8s.ilt-dmz.iosb.fraunhofer.de/v1.1
+    + Viewer: https://api4inspire.k8s.ilt-dmz.iosb.fraunhofer.de/servlet/is/127/
++ Soil Data (SoilThings extension):
+    + STA: https://ogc-demo.k8s.ilt-dmz.iosb.fraunhofer.de/FROST-SoilThings/v1.1/ 
+    + Viewer: https://api4inspire.k8s.ilt-dmz.iosb.fraunhofer.de/servlet/is/203/ 
