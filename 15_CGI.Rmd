@@ -1,0 +1,55 @@
+# Commission for the Management and Application of Geoscience Information (CGI)
+
+## Geoscience data interoperability
+
+Geological maps are a fundamental way of imparting geoscience information and describing geological relationships, through the map itself and the accompanying geological legend. 
+GIS software management of geological map data has been entrenched in geological surveys since the 1990s and the concept of geological feature layers with each feature described in terms of defining attributes has led to incorporating data standards to assist with information exchange.
+
+Geological data interoperability has been achieved through technology, need and an exemplar application.
+The GeoSciML logical data model began as a geological map data transfer standard, evolved from predecessors such as the North American Data Model but coded with Extensible Markup Language (XML) in parallel with many other XML-based logical data models.
+The need has centred around sharing and harmonising of geological information across jurisdictional boundaries, commonly between countries but perhaps with greater motivation by larger countries with multiple state or province-based geological survey agencies that are required to federate their data.
+For GeoSciML, the exemplar application has been the OneGeology project that has strived to produce a digital geological map for the world by federating country-served data through a portal using information standards. 
+GeoSciML is the means by which geological features, relationships, concepts and processes expressed in different data structures and through their own terms can be visualised and analysed collectively.
+
+## CGI Vocabularies
+
+The Commission for the Management and Application of Geoscience Information (CGI) is a commission under the auspices of the International Union of Geological Sciences (IUGS). CGI supports several working groups including the Geoscience Terminology Working Group (GTWG) and for GeoSciML development.
+
+The GeoSciML logical data model and its sister mineral occurrence and mining EarthResourceML logical data model are supported by standardised content terminology, that is, links to geoscience vocabularies. 
+The GTWG is charged with developing geoscience vocabularies to support these models. 
+Many of the feature, relationship, concept and process components in the logical data models have controls imposed on their content through mandatory use of restricted lists. 
+More than 100 vocabularies have been identified to support GeoSciML and EarthResourceML and 55 of these have been published thus far. 
+Each vocabulary is the result of a consensus achieved by the GTWG members and specialists that may be co-opted into the process. 
+Terms are typically organised hierarchically where appropriate, parent terms may have multiple child terms but multiple parent terms are also possible (poly-hierarchical). 
+The terms have definitions, have sources for the definitions, and synonyms (exact match, close match) including multi-lingual translations.
+The vocabularies are published as SKOS-RDF files that enable their machine-to-machine interoperability.
+
+## Governance
+
+Geological data interoperability is sustained through CGI and Open Geospatial Consortium governance.
+CGI through its IUGS parent has an enduring and internationally recognised role in maintaining and developing vocabularies for exchange of geoscience information.
+GTWG consists of 27 members from 16 countries of wide global extent and this diversity helps assert CGI authority in the international geoscience vocabulary space.
+The multi-lingual dimension is an important part of this.
+The members are supported by their respective organisations and work productivity is driven by need and commonly requires multi-country funded initiatives to achieve progress.
+
+## Resources
+
+|   Resource | URL |
+|--------------------------------------|-------------------------------|
+| GeoSciML                              |  http://geosciml.org/          https://www.ogc.org/standards/geosciml |
+| EarthResourceML                       |  http://earthresourceml.org/   |
+| CGI-IUGS                              | https://cgi-iugs.org/          |
+| Geoscience Terminology Working Group  | https://cgi-iugs.org/project/geoscienceterminology/  |
+| CGI Vocabularies Register             | http://geosciml.org/resource/def/voc/  |
+| OneGeology                            | https://onegeology.org/  http://portal.onegeology.org/OnegeologyGlobal/ |
+ 
+ 
+*Contributer*
+
+Mark Rattenbury
+
+Geologist & Programme Leader, Nationally Significant Databases and Collections
+
+GNS Science, Aotearoa New Zealand
+
+Chair, CGI-IUGS Geoscience Terminology Working Group
