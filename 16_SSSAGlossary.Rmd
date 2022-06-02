@@ -1,0 +1,39 @@
+# Glossary of Soil Science Terms
+
+https://www.soils.org/publications/soils-glossary/
+
+## What is it?
+
+Alphabetical Listing of soil terms, SI units, conversion factors, measurement terms (75 pages in last print form (2012) - new online 2022 version has 236 pages without Introduction or References). 
+Older version is available for free online, but new version will be “behind a membership or publications paywall”. 
+Any Soil Science Society of America member will have full access to the Glossary. 
+
+## Why was this resource created?
+
+The Glossary provides definitions and uses of terms that are published to provide a foundation for common understanding in communications covering soil science. 
+None of the terms in the Glossary of Soil Science Terms are considered official by SSSA. 
+
+## How is or could this resource be used in conjunction with soil data?
+
+- Downloadable format is a pdf and “Ctrl F” could be used to search for specific terms.
+- Online version has search and browse features.
+- Terms defined include properties, processes, concepts, methods, products.
+- To see relationships or connections between various words, there may be a note to “Compare” to another word. 
+- SSSA Glossary provides “…definitions in the traditional logic sense that only introduce terminology and do not add any knowledge about the world (Enderton, 1972).”
+- The Glossary also guides authors to proper terminology for publications e.g., not preferred, not recommended, no longer used in SSSA publications, etc.
+- Note how much the language changes with popular concepts and “movements” in the field. E.g., “soil physical condition” in the 50’s, 60’s, and 70’s of last century was the precursor to “soil quality” introduced in the 90’s (including the NRCS Soil Quality Institute), and then “soil health” gaining much popularity in the 2000’s (with the Soil Health Institute), and recent international publication “Encyclopedia of Soils in the Environment” using the term “soil status” instead.
+
+## Who supports and uses this resource? 
+
+The Glossary is updated occasionally by the Glossary of Soil Science Terms Committee (formerly the Glossary Working Group). 
+The Publications Department at ACSESS (Alliance for Crop, Soil, and Environmental Science Societies), Madison, WI works with Wiley to publish updated glossaries when deemed necessary. 
+
+*Contributer*
+
+April Ulery
+
+Past President
+
+Soil Science Society of America (SSSA) 
+
+Wed, Apr 13, 2022
