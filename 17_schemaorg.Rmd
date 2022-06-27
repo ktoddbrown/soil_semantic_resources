@@ -1,16 +1,34 @@
-# Resource summary Template
+# Schema.org
 
-Things to include in this summary are
+Making science datasets actionable from web pages that describe them.
 
-  - What the resource is (data model/template, ontology, dictionary/theserous, organization, server, or mix)?
-  - Why that resource was created
-  - How the resource relates to soil data specifically including how it can be used
-      - server/host
-      - describes measurements
-      - describes soil processes and concepts
-      - used to describe data sets and/or datum inside a data set
-  - How are changes and revisions made to the resource?
-  - Citations and attribution
-      - Related projects, publications, and links (update reference.bib)
-      - A contact person (if possible) to direct further questions to.
-      - Link to the YouTube recording of the presentation
+[Schema.org](https://schema.org/) is a vocabulary that describes things most typically found on web pages.
+
+Schema.org data on a webpage informs search engines, what your page content is **about**, using schemas agreed upon by **publishers & consumers**, for making content **actionable**.
+
+Publishers and Consumers collaborate on the schema.org vocabulary using [Github](https://github.com/schemaorg/schemaorg)
+
+Actionable content through schema.org means datasets can be **downloaded** from search engines (see [Google's Dataset Search](https://datasetsearch.research.google.com/)). Datasets can also be visualized, publishers can be contacted, and more! As a community, what other actions can be taken on datasets? These actions may be domain specific. So for the Soil cluster, are there tools that this community most often uses? Can soil datasets be described such that Google could open this dataset in that tool?
+
+The [ESIP Schema.org cluster](https://github.com/ESIPFed/science-on-schema.org/) curates a set of Schema.org publishing guidelines to help repositories describe their datasets in ways that are consistent and reliable for major search engines and metadata aggregators to improve discovery and use of these data. THe guidlines improve the existing schema.org guidance by providing drawings, descriptive prose and coding examples on best pratices ofr implementation.
+
+Stay updated on guideline revisions or get involved witht eh cluster to help your science community improve dataset discovery:
+
+* **Mailing List:** esip-schema-dot-org@lists.esipfed.org
+* **Slack**: https://esip-all.slack.com/messages/C8EACC8KT 
+* **Twitter**: @ScienceOnSchema
+
+
+## Point of Contact
+
+Adam Shepherd (Woods Hole Oceanographic Institution) [https://github.com/ashepherd](https://github.com/ashepherd) <ashepherd@whoi.edu>
+
+## Citations
+
+This version of Science-on-Schema.org can be cited as:
+
+Adam Shepherd, Matthew B. Jones, Stephen Richard, Nicolas Jarboe, Dave Vieglais, Douglas Fils, Ruth Duerr, Chantelle Verhey, Melinda Minch, Bryce Mecum, Nokome Bentley. (2022). Science-on-Schema.org v1.3.0. Zenodo. https://doi.org/10.5281/zenodo.6502539
+
+## Recorded Presentation
+
+[https://youtu.be/s0TzXWGsf34](https://youtu.be/s0TzXWGsf34) 
